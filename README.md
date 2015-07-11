@@ -1,5 +1,4 @@
 # hdfs-inotify-example
-HDS INotify Example
 
 You must run this tool as the hdfs user.
 
