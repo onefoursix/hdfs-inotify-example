@@ -9,17 +9,19 @@ You must run this tool as the hdfs user.
 
     Usage: $ java -jar hdfs-inotify-example-uber.jar <HDFS URI>  [<TxId>]
 
-This is a quick and dirty example.  If you omit the TxId arg you will get a list of all tx's, like this:
+This is a quick and dirty example.  If you omit the TxId arg,like this:
 
     $ sudo -u hdfs java -jar hdfs-inotify-example-uber.jar hdfs://brooklyn.onefoursix.com:8020
     
-The output might be quite verbose, as you will get all tx's
+... the output might be quite verbose, as you will get all tx's
 
 So you might want to start with a large TxId and then work backwards if you don't get any events.
 
-If the TxId is larger than the number of tx's then you will simply get no data back
+(If the TxId is larger than the number of tx's then you will simply get no data back)
 
 For my test on a new HDFS I will start will a TxId of 0:
+
+    $ sudo -u hdfs java -jar hdfs-inotify-example-uber.jar hdfs://brooklyn.onefoursix.com:8020 0
 
 I see output that ends like this:
 
