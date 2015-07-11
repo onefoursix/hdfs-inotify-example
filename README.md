@@ -32,7 +32,7 @@ I see output that ends like this:
       owner = hdfs
       ctime = 1436585351213
 
-ctrl-C to kill the app
+ctrl-c to kill the app
 
 From that you can see the last TxId was 351352
 
