@@ -2,7 +2,7 @@
 
 HDFS iNotify example
 
-See http://www.slideshare.net/Hadoop_Summit/keep-me-in-the-loop-inotify-in-hdfs for info on iNotify
+See http://www.slideshare.net/Hadoop_Summit/keep-me-in-the-loop-inotify-in-hdfs for info on iNotify, particularly slide #16
 
 You must run this tool as the hdfs user.
 
