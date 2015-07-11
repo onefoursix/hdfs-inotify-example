@@ -1,5 +1,9 @@
 # hdfs-inotify-example
 
+HDFS iNotify example
+
+See http://www.slideshare.net/Hadoop_Summit/keep-me-in-the-loop-inotify-in-hdfs for info on iNotify
+
 You must run this tool as the hdfs user.
 
     Usage: $ java -jar hdfs-inotify-example-uber.jar <HDFS URI>  [<TxId>]
